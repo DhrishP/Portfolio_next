@@ -32,8 +32,8 @@ const Herobody = () => {
     </div>
     
    </div>
-   <motion.div animate={window.innerWidth>700?{y:-100,opacity:1}:{y:-5,opacity:1}} transition={{type:"tween",duration:1.1}}
-   initial={window.innerWidth>500?{y:200,opacity:0.2}:{y:100,opacity:0}} className='flex items-center mt-10 md:mt-0  sm:mt-4   justify-center space-x-2 '>
+   <motion.div animate={{y:-100,opacity:1}} transition={{type:"tween",duration:1}}
+   initial={{y:200,opacity:0.2}} className='flex items-center mt-10 md:mt-0  sm:mt-4   justify-center space-x-2 '>
       <div className='flex justify-center md:h-16 border-4 h-14  border-black md:w-8 w-8 rounded-full'>
           <div className='w-0.5 h-3 mt-2 animate-bounce md:border-4 border-2 border-black'></div>
       </div>

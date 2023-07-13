@@ -13,11 +13,12 @@ import { MoveRight,Component,Server ,Asterisk} from "lucide-react";
 const About = () => {
   return (
     <>
+    <div id="about"></div>
       <motion.div
         whileInView={{ y: 0, opacity: 1 }}
         initial={{ y: 200, opacity: 0 }}
         transition={{ type: "tween", duration: 2 }}
-        id="about"
+        
         className="text-xl text-center "
       >
         About & Services
@@ -31,11 +32,12 @@ const About = () => {
           happy
         </p>
       </div>
-      <div className="mt-10 flex space-y-3 sm:space-y-1 md:space-y-0 flex-col md:flex-row justify-evenly items-center">
+      <div className="mt-10  flex space-y-3 sm:space-y-1 md:space-y-0 flex-col md:flex-row justify-evenly  items-center">
         <motion.div
-          whileInView={{ opacity: 1, x: 0,y:100 }}
+          whileInView={{ opacity: 1, x: 0,y:0 }}
           initial={{ opacity: 0.2, x: -200 ,y:200}}
           transition={{ type: "tween", duration: 1.1 }}
+          viewport={{once:true}}
           className="  cursor-pointer w-3/4  md:w-1/4 h-1/6 rounded-2xl shadow-xl"
         >
           <Card>
@@ -44,26 +46,27 @@ const About = () => {
               <CardDescription>Designing cool websites</CardDescription>
             </CardHeader>
             <CardContent>
-              <p className="space-y-2 ">
+              <div className="space-y-2 ">
               <Component/>
               <h2 className="text-gray-600">I can try to make put your imagination into reality</h2>
-              </p>
+              </div>
             </CardContent>
             <CardFooter className="">
               <div>
-                <p className="flex items-center justify-center">
+                <div className="flex items-center justify-center">
                   {" "}
                   <h3 className="hover:animate-pulse">View more</h3>
                   <MoveRight className="w-5 ml-1 text-gray-500 " />
-                </p>
+                </div>
               </div>
             </CardFooter>
           </Card>
         </motion.div>
         <motion.div
-          whileInView={{ opacity: 1, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0.2, y: 200 }}
           transition={{ type: "tween", duration: 1.1 }}
+          viewport={{once:true}}
           className="  cursor-pointer w-3/4  md:w-1/4 h-1/6 rounded-2xl shadow-xl"
         >
           <Card>
@@ -72,24 +75,25 @@ const About = () => {
               <CardDescription>Handling your data and API</CardDescription>
             </CardHeader>
             <CardContent>
-            <p className="space-y-2 ">
+            <div className="space-y-2 ">
               <Server/>
               <h2 className="text-gray-600">Handling API calls or Putting user data into databases</h2>
-              </p>
+              </div>
             </CardContent>
             <CardFooter>
-              <p className="flex items-center justify-center">
+              <div className="flex items-center justify-center">
                 {" "}
                 <h3 className="hover:animate-pulse">View more</h3>
                 <MoveRight className="w-5 ml-1 text-gray-500 " />
-              </p>
+              </div>
             </CardFooter>
           </Card>
         </motion.div>
         <motion.div
-          whileInView={{ opacity: 1, x: 0 ,y:100}}
+          whileInView={{ opacity: 1, x: 0 ,y:0}}
           initial={{ opacity: 0.2, x: 200,y:200 }}
           transition={{ type: "tween", duration: 1 }}
+          viewport={{once:true}}
           className="  cursor-pointer w-3/4  md:w-1/4 h-1/6 rounded-2xl shadow-xl"
         >
           <Card>
@@ -98,17 +102,17 @@ const About = () => {
               <CardDescription>Creating Websites to scale</CardDescription>
             </CardHeader>
             <CardContent>
-            <p className="space-y-2 ">
+            <div className="space-y-2 ">
               <Asterisk/>
               <h2 className="text-gray-600">Fully-fledged client and server interactive app</h2>
-              </p>
+              </div>
             </CardContent>
             <CardFooter>
-              <p className="flex items-center justify-center">
+              <div className="flex items-center justify-center">
                 {" "}
                 <h3 className="hover:animate-pulse">View more</h3>
                 <MoveRight className="w-5 ml-1 text-gray-500 " />
-              </p>
+              </div>
             </CardFooter>
           </Card>
         </motion.div>

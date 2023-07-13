@@ -70,6 +70,10 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      backgroundImage:{
+        circularLight : 'repeating-radial-gradient(rgba(0,0,0,0.6) 2px,#F8FAFC 5px,#F8FAFC 120px);',
+        circularLightsm : 'repeating-radial-gradient(rgba(0,0,0,0.6) 2px,#F8FAFC 5px,#F8FAFC 60px);'
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
