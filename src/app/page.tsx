@@ -11,7 +11,7 @@ export default function Home() {
 <Navbar/>
 <Herobody/>
 </div>
-<div className='h-screen w-screen'>
+<div className='h-full md:h-[85vh] w-screen'>
   <About/>
 </div>
 <div className='h-screen w-screen'>

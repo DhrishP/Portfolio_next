@@ -62,9 +62,9 @@ const Navbar = () => {
       </div>
 
       <ul className="w-1/2 flex cursor-pointer mr-2 md:mr-4 items-center space-x-6 justify-center  ">
-        <li className="hover:text-gray-600"> <a href="#Home">Home</a> </li>
+        <li className="hover:text-gray-600"> <a href="#home">Home</a> </li>
         <li className="hover:text-gray-600"> <a href="#about">About</a> </li>
-        <li className="hover:text-gray-600"> <a href="#Home">Services</a> </li>
+        <li className="hover:text-gray-600"> <a href="#skills">Skills</a> </li>
         <li className="hover:text-gray-600"> <a href="#Home">Contact</a> </li>
       </ul>
     </nav>
