@@ -72,7 +72,7 @@ module.exports = {
       },
       backgroundImage:{
         circularLight : 'repeating-radial-gradient(rgba(0,0,0,0.6) 2px,#F8FAFC 5px,#F8FAFC 120px);',
-        circularLightsm : 'repeating-radial-gradient(rgba(0,0,0,0.6) 2px,#F8FAFC 5px,#F8FAFC 60px);'
+        circularLightsm : 'repeating-radial-gradient(rgba(0,0,0,0.6) 2px,#F8FAFC 5px,#F8FAFC 45px);'
       }
     },
   },
