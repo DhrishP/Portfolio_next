@@ -36,8 +36,8 @@ const About = () => {
       <div className="mt-10  flex space-y-3 sm:space-y-1 md:space-y-0 flex-col md:flex-row justify-evenly  items-center">
         <motion.div
           whileInView={{ opacity: 1, x: 0,y:0 }}
-          initial={{ opacity: 0.2, x: -200 ,y:200}}
-          transition={{ type: "tween", duration: 1.1 }}
+          initial={{ opacity: 0.2, x: -200 ,y:0}}
+          transition={{ type: "tween", duration: 1.2 }}
           viewport={{once:true}}
           className="  cursor-pointer w-3/4  md:w-1/4 h-1/6 rounded-2xl shadow-xl"
         >
@@ -68,7 +68,7 @@ const About = () => {
         <motion.div
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0.2, y: 200 }}
-          transition={{ type: "tween", duration: 1.1 }}
+          transition={{ type: "tween", duration: 1.2 }}
           viewport={{once:true}}
           className="  cursor-pointer w-3/4  md:w-1/4 h-1/6 rounded-2xl shadow-xl"
         >
@@ -96,8 +96,8 @@ const About = () => {
         </motion.div>
         <motion.div
           whileInView={{ opacity: 1, x: 0 ,y:0}}
-          initial={{ opacity: 0.2, x: 200,y:200 }}
-          transition={{ type: "tween", duration: 1 }}
+          initial={{ opacity: 0.2, x: 200,y:0 }}
+          transition={{ type: "tween", duration: 1.2 }}
           viewport={{once:true}}
           className="  cursor-pointer w-3/4  md:w-1/4 h-1/6 rounded-2xl shadow-xl"
         >
