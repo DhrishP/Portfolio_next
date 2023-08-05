@@ -4,6 +4,7 @@ import Herobody from './(Header)/Herobody'
 import About from './(About)/About'
 import Skill from './(Skills)/Skill'
 import Project from './(Projects)/Project'
+import Contact from './(Contact)/Contact'
 
 export default function Home() {
   return (
@@ -18,8 +19,11 @@ export default function Home() {
 <div className='h-full w-screen'>
 <Skill/>
 </div>
-<div className='h-screen w-screen'>
+<div className='h-full w-screen'>
     <Project/>
+</div>
+<div className='h-screen translate-y-24 w-screen'>
+    <Contact/>
 </div>
 </>
   )

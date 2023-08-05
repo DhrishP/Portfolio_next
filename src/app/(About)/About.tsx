@@ -10,6 +10,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { MoveRight,Component,Server ,Asterisk} from "lucide-react";
+import DialogModal from "@/components/ui/dialogmodal";
 const About = () => {
   return (
     <>
@@ -51,6 +52,7 @@ const About = () => {
               <h2 className="text-gray-600">I can try to make put your imagination into reality</h2>
               </div>
             </CardContent>
+            <DialogModal title="Front-End Development" check1="lorem" check2="ipsum" check3="yoo" check4="lol">
             <CardFooter className="">
               <div>
                 <div className="flex items-center justify-center">
@@ -60,6 +62,7 @@ const About = () => {
                 </div>
               </div>
             </CardFooter>
+            </DialogModal>
           </Card>
         </motion.div>
         <motion.div
@@ -80,6 +83,7 @@ const About = () => {
               <h2 className="text-gray-600">Handling API calls or Putting user data into databases</h2>
               </div>
             </CardContent>
+            <DialogModal title="Back-end development"  check1="lorem" check2="ipsum" check3="yoo" check4="lol">
             <CardFooter>
               <div className="flex items-center justify-center">
                 {" "}
@@ -87,6 +91,7 @@ const About = () => {
                 <MoveRight className="w-5 ml-1 text-gray-500 " />
               </div>
             </CardFooter>
+            </DialogModal>
           </Card>
         </motion.div>
         <motion.div
@@ -107,6 +112,7 @@ const About = () => {
               <h2 className="text-gray-600">Fully-fledged client and server interactive app</h2>
               </div>
             </CardContent>
+            <DialogModal title="Full-Stack Development"  check1="lorem" check2="ipsum" check3="yoo" check4="lol">
             <CardFooter>
               <div className="flex items-center justify-center">
                 {" "}
@@ -114,6 +120,7 @@ const About = () => {
                 <MoveRight className="w-5 ml-1 text-gray-500 " />
               </div>
             </CardFooter>
+            </DialogModal>
           </Card>
         </motion.div>
       </div>
