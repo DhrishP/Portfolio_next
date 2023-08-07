@@ -21,9 +21,9 @@
     "id": 3,
     "title": "CryptoDetect",
     "description": "This is an crypto details website having data graphs, searching ,filtering and saving showing use of different API using useContext hook",
-    "github": "",
-    "ImageUrl": "",
-    "websiteUrl": "",
+    "github": "https://github.com/DhrishP/CryptoDetect",
+    "ImageUrl": "/images/crypto.png",
+    "websiteUrl": "https://crypto-detect.vercel.app/",
     "color": "green"
   }
 ]

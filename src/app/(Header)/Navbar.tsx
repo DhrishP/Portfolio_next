@@ -65,6 +65,7 @@ const Navbar = () => {
         <li className="hover:text-gray-600"> <a href="#home">Home</a> </li>
         <li className="hover:text-gray-600"> <a href="#about">About</a> </li>
         <li className="hover:text-gray-600"> <a href="#skills">Skills</a> </li>
+        <li className="hover:text-gray-600"> <a href="#skills">Projects</a> </li>
         <li className="hover:text-gray-600"> <a href="#Home">Contact</a> </li>
       </ul>
     </nav>

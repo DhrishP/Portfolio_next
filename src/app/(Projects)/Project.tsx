@@ -18,9 +18,9 @@ const Project = () => {
       </motion.div>
       <div className="text-center space-y-1">
         <h1 className="text-center text-5xl md:text-6xl sm:text-6xl font-semibold capitalize  md:mt-0 ">
-          In the middle of difficulty lies opportunity
+        Pixels and passion
         </h1>
-        <p className="text-gray-500">A proof of work</p>
+        <p className="text-gray-500">Weaving the web, project by project</p>
       </div>
       <div>
         {ProjectData.map((proj) => (
