@@ -22,7 +22,7 @@ export default function Home() {
 <div className='h-full w-screen'>
     <Project/>
 </div>
-<div className='h-screen translate-y-24 w-screen'>
+<div className='h-full translate-y-24 w-screen'>
     <Contact/>
 </div>
 </>

@@ -51,7 +51,7 @@ export default function Card({
         >
           <div className="grid grid-rows-2 md:grid-cols-4 gap-1 md:gap-5 lg:gap-8 ">
             <div className="md:col-span-2  h-full w-full p-6 ">
-              <div className="flex items-center border ">
+              <motion.div initial={{scale:1}} whileHover={{scale:1.7,y:2}} whileTap={{scale:1.7,y:2}} className="flex items-center border ">
                 <Image
                   height={700}
                   width={500}
@@ -59,7 +59,7 @@ export default function Card({
                   className="object-center object-cover "
                   alt={"Project Image"}
                 />
-              </div>
+              </motion.div>
             </div>
             <div className=" md:col-span-2 px-2 md:px-0 md:h-full w-full">
               <h2 style={{color:color}}  className={cn("md:text-2xl capitalize text-lg ")}>{title}</h2>
