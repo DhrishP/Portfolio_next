@@ -1,3 +1,4 @@
+import { ThemeProvider } from '@/components/theme-provider'
 import './global.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -8,7 +9,7 @@ const poppins = Poppins({subsets:['latin'],weight:['500']})
 
 export const metadata: Metadata = {
   title: 'PORTFOLIO',
-  description: 'Get to know me better!',
+  description: 'Get to know me better! ',
 }
 
 export default function RootLayout({
@@ -18,7 +19,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en ">
-      <body className={`${poppins.className} bg-primary-foreground`}>{children}</body>
+      <body className={`${poppins.className} bg-primary-foreground`}>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        {children}
+        </ThemeProvider>
+        </body>
     </html>
   )
 }

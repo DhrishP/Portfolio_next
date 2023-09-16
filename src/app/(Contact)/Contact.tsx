@@ -8,6 +8,7 @@ const Contact = () => {
   return (
     <>
     <motion.div
+    id='contact'
     whileInView={{ y: 0, opacity: 1 }}
     initial={{ y: 0, opacity: 0 }}
     transition={{ type: "tween", duration: 3 }}
@@ -39,14 +40,13 @@ const Contact = () => {
       <label htmlFor="floating_email" className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-focus:dark:text-primary-foreground peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email Address</label>
   </div>
   <div className="relative z-0 w-full mb-6 group">
-      <input type="password" name="name" id="name_of_person" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-muted-foreground peer" placeholder="" required />
-      <label htmlFor="name_of_person" className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-focus:dark:text-primary-foreground peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">NickName</label>
+      <input name="name" id="name_of_person" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-muted-foreground peer" placeholder="" required />
+      <label htmlFor="name_of_person" className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-focus:dark:text-primary-foreground peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Your name / Nickname</label>
   </div>
-
   <div className="">
-    <textarea name='info' cols={40} rows={10} placeholder=' Anything you want to send ... ' className='border-gray-300 border bg-primary-foreground rounded-lg font-mono' />
+    <textarea name='info' cols={40} rows={10} placeholder=' Your message ...' className='border-gray-300 border bg-primary-foreground rounded-lg font-mono' />
   </div>
-    <Button className='hover:bg-muted hover:text-primary hover:border-primary border' type='submit' size={'sm'} >Submit</Button>
+    <Button className='hover:bg-muted hover:text-primary hover:border-primary border mb-8 md:mb-0' type='submit' size={'sm'} >Submit</Button>
 </form>
 
     </div>

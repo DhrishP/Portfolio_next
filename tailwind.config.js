@@ -72,7 +72,9 @@ module.exports = {
       },
       backgroundImage:{
         circularLight : 'repeating-radial-gradient(rgba(0,0,0,0.6) 2px,#F8FAFC 5px,#F8FAFC 120px);',
-        circularLightsm : 'repeating-radial-gradient(rgba(0,0,0,0.6) 2px,#F8FAFC 5px,#F8FAFC 45px);'
+        circularLightsm : 'repeating-radial-gradient(rgba(0,0,0,0.6) 2px,#F8FAFC 5px,#F8FAFC 45px);',
+        circularDark : 'repeating-radial-gradient(rgba(192, 192, 192, 0.5) 2px,#1F2937 5px,#0f172a 120px);',
+        circularDarksm : 'repeating-radial-gradient(rgba(0,0,0,0.6) 2px,#1F2937 5px,#0f172a 45px);',
       }
     },
   },

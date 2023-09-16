@@ -48,7 +48,7 @@ const About = () => {
             <CardContent>
               <div className="space-y-2 ">
                 <Component />
-                <h2 className="text-gray-600">
+                <h2 className="text-gray-600 dark:text-gray-300">
                   I can try to make put your imagination into reality
                 </h2>
               </div>
@@ -87,7 +87,7 @@ const About = () => {
             <CardContent>
               <div className="space-y-2 ">
                 <Server />
-                <h2 className="text-gray-600">
+                <h2 className="text-gray-600 dark:text-gray-300">
                   Handling API calls or Putting user data into databases
                 </h2>
               </div>
@@ -124,7 +124,7 @@ const About = () => {
             <CardContent>
               <div className="space-y-2 ">
                 <Asterisk />
-                <h2 className="text-gray-600">
+                <h2 className="text-gray-600 dark:text-gray-300">
                   Fully-fledged client and server interactive app
                 </h2>
               </div>
