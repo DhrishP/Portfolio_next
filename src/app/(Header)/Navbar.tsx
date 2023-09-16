@@ -32,7 +32,7 @@ const Navbar = () => {
                 <a
                   className="flex items-center justify-center "
                   target="_blank"
-                  href="https://github.com "
+                  href="https://github.com/DhrishP "
                 >
                   <Github className="mr-2 h-4 w-4" />
                   <span>GitHub</span>
@@ -42,7 +42,7 @@ const Navbar = () => {
                 <a
                   className="flex items-center justify-center "
                   target="_blank"
-                  href="https://twitter.com "
+                  href="https://twitter.com/PDhrish "
                 >
                   <Twitter className="mr-2 h-4 w-4" />
                   <span>Twitter</span>
@@ -52,7 +52,7 @@ const Navbar = () => {
                 <a
                   className="flex items-center justify-center "
                   target="_blank"
-                  href="https://linkedin.com "
+                  href="https://www.linkedin.com/in/dhrish-parekh-89a845262/"
                 >
                   <LinkedinIcon className="mr-2 h-4 w-4" />
                   <span>LinkedIn</span>
