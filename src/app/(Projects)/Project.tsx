@@ -8,6 +8,7 @@ const Project = () => {
   return (
     <>
       <motion.div
+      id="projects"
         whileInView={{ y: 0, opacity: 1 }}
         initial={{ y: 0, opacity: 0 }}
         transition={{ type: "tween", duration: 3 }}

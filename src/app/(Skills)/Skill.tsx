@@ -8,7 +8,7 @@ type SkillsProps ={
 }
 const Skills = ({name, x, y}:SkillsProps) =>{
   return(
-    <motion.div className='flex items-center justify-center rounded-full font-semibold md:bg-black text-black bg-transparent md:text-white py-2 px-3 shadow-black cursor-pointer absolute lg:py-3 lg:px-6 md:text-sm md:py-1.5 md:px-5  sm:font-bold'
+    <motion.div className='flex items-center justify-center rounded-full font-semibold md:bg-primary text-primary bg-transparent md:text-secondary py-2 px-3 shadow-primary cursor-pointer absolute lg:py-3 lg:px-6 md:text-sm md:py-1.5 md:px-5  sm:font-bold'
     whileHover={{scale:1.05}}
     initial={{x:0,y:0}}
     whileInView={{x:x,y:y}}
@@ -46,8 +46,8 @@ const Skill = () => {
           Web of Skills
         </p>
       </div>
-      <div className='w-3/4 mx-auto  relative flex lg:h-screen md:h-[80vh] h-[50vh] items-center justify-center  bg-circularLightsm  md:bg-circularLight   '>
-          <motion.div className='flex items-center justify-center rounded-full font-semibold bg-transparent text-black md:bg-black md:text-white shadow-black cursor-pointer lg:p-8 md:p-5 sm:p-6 sm:text-xs' whileHover={{scale:1.05}}>
+      <div className='w-3/4 mx-auto  relative flex lg:h-screen md:h-[80vh] h-[50vh] items-center justify-center  bg-circularLightsm  md:bg-circularLight dark:bg-circularDarksm md:dark:bg-circularDark  '>
+          <motion.div className='flex items-center justify-center rounded-full font-semibold bg-transparent text-primary md:bg-primary md:text-secondary shadow-primary cursor-pointer lg:p-8 md:p-5 sm:p-6 sm:text-xs' whileHover={{scale:1.05}}>
             Web
           </motion.div>
           <Skills name="HTML" x="-23vw" y="2vw"/>
