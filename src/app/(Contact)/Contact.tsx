@@ -19,9 +19,9 @@ const Contact = () => {
   </motion.div>
   <div className="text-center space-y-1">
     <h1 className="text-center text-5xl md:text-6xl sm:text-6xl font-semibold capitalize  md:mt-0 ">
-    It's not what you know, it's who you know.
+    It&apos;s not what you know, it&apos;s who you know.
     </h1>
-    <p className="text-gray-500">Let's Connect😀</p>
+    <p className="text-gray-500">Let&apos;s Connect😀</p>
   </div>
   <motion.div initial={{x:0,y:100}} whileInView={{x:0,y:0}} viewport={{once:true}}
   transition={{duration:1,type:'tween'}}

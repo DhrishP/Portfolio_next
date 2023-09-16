@@ -17,7 +17,7 @@ import { Button } from "@/components/ui/button";
 const Navbar = () => {
   const { setTheme } = useTheme();
   return (
-    <nav className="sm:flex hidden w-full fixed pt-6 justify-between items-center z-10">
+    <nav className="sm:flex hidden w-full md:fixed pt-6 justify-between items-center z-10">
       <div className="w-1/3 flex space-x-2 items-center justify-center">
         <DropdownMenu>
           <Avatar className=" ">
