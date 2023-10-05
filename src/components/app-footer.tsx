@@ -12,6 +12,7 @@ import {
   TwitterIcon,
   LinkedinIcon,
   Sun,
+  Moon,
 } from "lucide-react";
 import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import Link from "next/link";
@@ -120,7 +121,7 @@ const Appfooter = () => {
                           onClick={() => theme.setTheme("dark")}
                           className="p-5 rounded-md  bg-secondary border flex space-x-2 items-center w-full  "
                         >
-                          <Sun className="h-5 w-5 text-primary hover:text-white " />
+                          <Moon className="h-5 w-5 text-primary hover:text-white " />
                           <h3 className="text-primary hover:text-white ">
                             Dark theme
                           </h3>
