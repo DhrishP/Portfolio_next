@@ -22,8 +22,8 @@ const Navbar = () => {
         <DropdownMenu>
           <Avatar className=" ">
             <DropdownMenuTrigger>
-              <AvatarImage src="https://github.com/DhrishP.png" alt="@shadcn" />
-              <AvatarFallback>CN</AvatarFallback>
+              <AvatarImage src="https://github.com/DhrishP.png" alt="PFP" />
+              <AvatarFallback>PFP</AvatarFallback>
             </DropdownMenuTrigger>
             <DropdownMenuContent>
               <DropdownMenuLabel>My Account</DropdownMenuLabel>
