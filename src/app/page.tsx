@@ -5,7 +5,7 @@ import About from './(About)/About'
 import Skill from './(Skills)/Skill'
 import Project from './(Projects)/Project'
 import Contact from './(Contact)/Contact'
-import Appfooter from '@/components/app-footer'
+import AppNavbar from '@/components/app-navbar'
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <div className='h-screen w-screen bg-primary-foreground'>
         <Navbar/>
         <Herobody/>
-        <Appfooter/>
+        <AppNavbar/>
       </div>
       <div className='h-full md:h-[85vh] w-screen'>
         <About/>
@@ -24,7 +24,7 @@ export default function Home() {
       <div className='h-full w-screen'>
         <Project/>
       </div>
-      <div className='h-full translate-y-24 w-screen'>
+      <div className='h-[80vh] md:h-full translate-y-24 w-screen'>
         <Contact/>
       </div>
 

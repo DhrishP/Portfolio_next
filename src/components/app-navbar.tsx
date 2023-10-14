@@ -19,7 +19,7 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 import { Button } from "./ui/button";
 
-const Appfooter = () => {
+const AppNavbar = () => {
   const theme = useTheme();
   return (
     <>
@@ -139,4 +139,4 @@ const Appfooter = () => {
   );
 };
 
-export default Appfooter;
+export default AppNavbar;
