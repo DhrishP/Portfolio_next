@@ -27,7 +27,6 @@ export default function Home() {
       <div className='h-[80vh] md:h-full translate-y-24 w-screen'>
         <Contact/>
       </div>
-
     </>
   )
 }
