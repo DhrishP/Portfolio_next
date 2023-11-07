@@ -51,10 +51,10 @@ const Skill = () => {
             Web
           </motion.div>
           <Skills name="HTML" x="-23vw" y="2vw"/>
-          <Skills name="CSS" x="-5vw" y="-10vw"/>
-          <Skills name="ReactJS" x="20vw" y="6vw"/>
+          <Skills name="Tailwind" x="-5vw" y="-10vw"/>
+          <Skills name="Typescript" x="20vw" y="6vw"/>
           <Skills name="NextJS" x="0vw" y="11vw"/>
-          <Skills name="Astro" x="-20vw" y="-15vw"/>
+          <Skills name="Docker" x="-20vw" y="-15vw"/>
           <Skills name="PostgresSQL" x="15vw" y="-12vw"/>
           <Skills name="PRISMA" x="31vw" y="-5vw"/>
           <Skills name="Supabase" x="-34vw" y="-12vw"/>
