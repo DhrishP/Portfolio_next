@@ -18,6 +18,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { Button } from "./ui/button";
+import Image from "next/image";
 
 const AppNavbar = () => {
   const theme = useTheme();
@@ -25,7 +26,7 @@ const AppNavbar = () => {
     <>
       <div className="md:hidden  w-full fixed bottom-0 z-10 ">
         <nav className="bg-slate-100 dark:bg-slate-700 py-5 flex justify-between px-4 items-center ">
-          <div className="">
+          <div className="flex items-center space-x-2">
             <Popover>
               <PopoverTrigger>
                 <Avatar className="  ">
@@ -64,6 +65,25 @@ const AppNavbar = () => {
                 </PopoverContent>
               </PopoverTrigger>
             </Popover>
+            <div className="flex items-center animate-pulse">
+              <div>
+              <Image
+                src="/images/arrow.png"
+                className="  -rotate-90 -scale-y-100"
+                alt="PFP"
+                width={25}
+                height={5}
+                />
+              <Image
+                src="/images/arrow.png"
+                className="  rotate-90"
+                alt="PFP"
+                width={25}
+                height={5}
+                />
+                </div>
+                <h2 className="text-xs">Links</h2>
+            </div>
           </div>
           <div>
             <Popover>
