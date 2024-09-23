@@ -8,8 +8,7 @@ const experiences = [
     title: "Frontend Developer",
     company: "CelebralZip Private Limited",
     period: "Feb 2024 - July 2024",
-    description:
-      `Worked on the core frontend of the website using React.js , material UI , typescript , react redux. \n\n -Learned lazy loading of components in react(lodash) \n\n -made websockets to show realtime progress ,speed and ETA for uploading large files. \n\n -file structure and refactoring of a large production ready app \n\n -debugging code using react dev tools \n\n -global state using redux and useContext \n\n
+    description: `Worked on the core frontend of the website using React.js , material UI , typescript , react redux. \n\n -Learned lazy loading of components in react(lodash) \n\n -made websockets to show realtime progress ,speed and ETA for uploading large files. \n\n -file structure and refactoring of a large production ready app \n\n -debugging code using react dev tools \n\n -global state using redux and useContext \n\n
 -form validation using formik , material UI styling of the app. `,
     color: "bg-primary",
   },
@@ -17,8 +16,7 @@ const experiences = [
     title: "Full Stack Developer",
     company: "EpiphanyAI",
     period: "May 2024 - Present",
-    description:
-      `A founding engineer contributed heavily in making the backend of the product using various AI libaries. \n\n -Working with a seasonal silicon valley founder($400MM in acquisitions) - made the vercel ai sdk tooling functionality manually to use non supported llms like llama70b,qwen,etc for inference providers like groq,fireworks(reduced cost by 80%) \n\n
+    description: `A founding engineer contributed heavily in making the backend of the product using various AI libaries. \n\n -Working with a seasonal silicon valley founder($400MM in acquisitions) - made the vercel ai sdk tooling functionality manually to use non supported llms like llama70b,qwen,etc for inference providers like groq,fireworks(reduced cost by 80%) \n\n
 -shifted from tavily to searX for getting sources and media for the application(reduced cost by 90%+) \n\n
 -added parallel generative UI streaming for media and sources section of app ( vercel ai sdk) \n\n
 -generated sitemaps for 200k+ queries \n\n
@@ -153,7 +151,7 @@ const AnimatedTimeline = () => {
 
 const AnimatedExperiencePortfolio = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br bg-[#0f172a] py-16">
+    <div className="min-h-screen bg-gradient-to-br bg-[#f8fafc] dark:bg-[#0f172a] py-16">
       <div className="max-w-4xl mx-auto px-8">
         <motion.h2
           initial={{ opacity: 0, y: -50 }}
