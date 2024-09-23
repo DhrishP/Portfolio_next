@@ -48,7 +48,7 @@ const AppNavbar = () => {
                       <h3>Github</h3>
                     </Link>
                     <Link
-                      href="https://twitter.com/PDhrish"
+                      href="https://twitter.com/whycurious101"
                       className="flex items-center hover:bg-primary-foreground space-x-2 border-muted border rounded px-1 mb-2 cursor-pointer py-2   "
                     >
                       <TwitterIcon className="h-4 w-4" />
