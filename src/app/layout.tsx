@@ -8,8 +8,8 @@ const inter = Inter({ subsets: ['latin'] })
 const poppins = Poppins({subsets:['latin'],weight:['500']})
 
 export const metadata: Metadata = {
-  title: 'PORTFOLIO',
-  description: 'Get to know me better! ',
+  title: 'DhrishP Portfolio',
+  description: 'Portfolio of Dhrish Parekh, A full stack developer and a curious mind',
 }
 
 export default function RootLayout({
