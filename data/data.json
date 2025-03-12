@@ -18,25 +18,7 @@
     "color": "blue"
   },
   {
-    "id": 3,
-    "title": "VeerOne",
-    "description": "An AI chatbot for websites to interact with customers, using Vercel AI SDK, Langchain, and other libraries. It leverages tools, agents, chains, vector stores, and advanced web scraping.",
-    "github": "https://github.com/DhrishP/lingo-safari",
-    "ImageUrl": "/images/veerone.png",
-    "websiteUrl": "https://veerone.com/",
-    "color": "purple"
-  },
-  {
-    "id": 4,
-    "title": "chatapp",
-    "description": "A chat application made using socket.io ,react and nodejs which supports real time communication",
-    "github": "https://github.com/DhrishP/chat-app",
-    "ImageUrl": "/images/chatapp.png",
-    "websiteUrl": "https://chat-app-v1-hwdb.onrender.com/",
-    "color": "purple"
-  },
-  {
-    "id":5,
+    "id":3,
     "title": "RAGVault",
     "description": "RAGVault is a CLI tool to use RAG(Retrieval Augmented Generation) in your your terminal using local vector database which does embeddings locally and also answers your queries using default chromaDB LLM or you can use your own LLM",
     "github": "https://github.com/DhrishP/RAGVault",

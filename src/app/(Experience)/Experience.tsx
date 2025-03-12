@@ -152,15 +152,26 @@ const AnimatedTimeline = () => {
 const AnimatedExperiencePortfolio = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br bg-[#f8fafc] dark:bg-[#0f172a] py-16">
-      <div className="max-w-4xl mx-auto px-8">
-        <motion.h2
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="text-4xl font-extrabold text-center mb-16  bg-clip-text bg-gradient-to-r text-primary"
+      <div className="max-w-4xl mx-auto px-8 pb-4">
+        <motion.div
+          id="career"
+          whileInView={{ y: 0, opacity: 1 }}
+          initial={{ y: 0, opacity: 0 }}
+          transition={{ type: "tween", duration: 3 }}
+          viewport={{ once: true }}
+          className="text-xl text-center "
         >
           My Career Journey
-        </motion.h2>
+        </motion.div>
+        <div className="text-center space-y-1 pb-6">
+          <h1 className="text-center text-4xl md:text-5xl sm:text-5xl font-semibold capitalize  md:mt-0 ">
+            Staying with the problems long enough
+          </h1>
+          <p className="text-gray-500">
+            not intelligent , just persistent
+          </p>
+        </div>
+
         <div className="relative">
           <AnimatedTimeline />
           {experiences.map((exp, index) => (
