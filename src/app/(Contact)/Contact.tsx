@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import { GithubIcon, TwitterIcon, LinkedinIcon, File } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -36,6 +37,80 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex items-center flex-col justify-center w-full h-full">
+          <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 space-x-0 md:space-x-4 mb-6">
+            <div className="flex items-center space-x-4">
+              <Button
+                asChild
+                variant="outline"
+                size="icon"
+                className="rounded-full hover:bg-muted hover:text-primary"
+              >
+                <a
+                  href="https://github.com/dhrishp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GithubIcon className="h-5 w-5" />
+                </a>
+              </Button>
+              <Button
+                asChild
+                variant="outline"
+                size="icon"
+                className="rounded-full hover:bg-muted hover:text-primary"
+              >
+                <a
+                  href="https://twitter.com/whycurious101"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <TwitterIcon className="h-5 w-5" />
+                </a>
+              </Button>
+              <Button
+                asChild
+                variant="outline"
+                size="icon"
+                className="rounded-full hover:bg-muted hover:text-primary"
+              >
+                <a
+                  href="https://linkedin.com/in/dhrish-parekh-89a845262/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <LinkedinIcon className="h-5 w-5" />
+                </a>
+              </Button>
+              <Button
+                asChild
+                variant="outline"
+                size="icon"
+                className="rounded-full hover:bg-muted hover:text-primary"
+              >
+                <a
+                  href="https://dhrishp.tiiny.site"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <File className="h-5 w-5" />
+                </a>
+              </Button>
+            </div>
+            <Button
+              asChild
+              variant="default"
+              className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg transition-all duration-300 hover:scale-105"
+            >
+              <a
+                href="https://cal.com/whycurious101"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center px-6 py-2"
+              >
+                Schedule a meeting
+              </a>
+            </Button>
+          </div>
           <form
             action="https://formsubmit.co/cc9e32fafc72f282ca8d7e86196eeefb"
             method="POST"
