@@ -9,7 +9,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Github, Twitter, LinkedinIcon } from "lucide-react";
+import { Github, Twitter, LinkedinIcon, File } from "lucide-react";
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
@@ -59,6 +59,16 @@ const Navbar = () => {
                     >
                       <LinkedinIcon className="mr-2 h-4 w-4" />
                       <span>LinkedIn</span>
+                    </a>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem className="cursor-pointer ">
+                    <a
+                      className="flex items-center justify-center "
+                      target="_blank"
+                      href="https://dhrishp.tiiny.site"
+                    >
+                      <File className="mr-2 h-4 w-4" />
+                      <span>Resume</span>
                     </a>
                   </DropdownMenuItem>
                 </DropdownMenuContent>
